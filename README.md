@@ -7,5 +7,5 @@
 # [分享材料](./Share)
 
 1. [GitHub 配置](./Share/GitHub配置.md)
-
-   主要是关注添加 ssh key
+   * 账户注册后配置，例如添加 ssh key
+   * 多用户配置
