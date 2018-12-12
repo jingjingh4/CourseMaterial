@@ -12,7 +12,7 @@
 
 ```bash
 <<'COMMENT'
-最好是在 .ssh 文件夹（MacOS 或者 Linux 下的默认位置是 ~/.ssh）下进行操作。需要完成的操作如下：
+最好是在 .ssh 文件夹（MacOS 下的默认位置是 ~/.ssh，Linux 是在 /home/<username>/.ssh，Windows 是在 /c/Users/<username>/.ssh）下进行操作。需要完成的操作如下：
 1. 如有必要，需要生成一个 SSH key
 2. 确认 SSH 服务已经启动
 3. 将 SSH private key 添加到 ssh-agent
@@ -101,6 +101,13 @@ $ pbcopy < ~/.ssh/rsa_test.pub
 ```bash
 $ git config --global --unset user.name
 $ git config --global --unset user.email
+```
+
+可以不使用 `--global` 参数进行当前“局部”配置用户信息：
+
+```bash
+$ git config user.name "testuser"
+$ git config user.email "test@test_mail.com"
 ```
 
 这里假设我们已经生成了两个 ssh key，其中 private key 的文件是 `~/.ssh/id_rsa` 和 `~/.ssh/rsa_test`；此外对应的 public key 已经在相应的托管平台配置完成。接下来需要在 `~/.ssh` 文件夹下创建一个 `config` 文件（文件名称就是 `config`），并且进行相应的配置，配置内容如下：
