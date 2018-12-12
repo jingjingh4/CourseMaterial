@@ -2,6 +2,10 @@
 
 [TOC]
 
+**写在前面：**
+
+* 所有的文件是使用的 [Typora — a markdown editor](https://typora.io/) 来书写的，没有进行额外的设置
+
 # [课程材料](./Course)
 
 # [分享材料](./Share)
