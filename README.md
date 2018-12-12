@@ -19,3 +19,7 @@
    包括的第一次分享的内容，囊括的主要内容如下：
 
    * [Anaconda 与 GitHub Desktop 配置](./Share/Anaconda与GitHubDesktop配置.md)
+
+   * [Python Basic 信息](./Share/Basic.md)
+
+     其中包括了部分的练习文件，[Basic 练习](./Share/Basic.ipynb)
