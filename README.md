@@ -8,6 +8,8 @@
 
 # [课程材料](./Course)
 
+1. [使用统计学验证应用中的假设](./Course/Course1_Perceptual_Phenomenon.md)
+
 # [分享材料](./Share)
 
 1. [GitHub 配置](./Share/GitHub配置.md)
