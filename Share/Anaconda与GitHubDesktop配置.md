@@ -71,7 +71,7 @@ Anaconda 安装可以参考课程中的内容（课程位置是在选修课部�
    当使用 git 命令操作时，提交 commit 步骤为：
 
    ```bash
-   # 注意⚠️ 下面两行命令指示演示使用 git 命令的方式，在 GitHub 中不需要使用
+   # 注意⚠️ 下面两行命令只是演示使用 git 命令的方式，在 GitHub 中不需要使用
    $ git add <file>
    $ git commit -m <message>
    ```
