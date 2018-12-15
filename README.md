@@ -9,6 +9,7 @@
 # [课程材料](./Course)
 
 1. [使用统计学验证应用中的假设](./Course/Course1_Perceptual_Phenomenon.md)
+2. [数据清洗](./Course/Course2_DataWrangling.md)
 
 # [分享材料](./Share)
 
