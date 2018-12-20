@@ -10,6 +10,13 @@
 
 1. [使用统计学验证应用中的假设](./Course/Course1_Perceptual_Phenomenon.md)
 2. [数据清洗](./Course/Course2_DataWrangling.md)
+3. [探索性数据分析](./Course/Course3_ExplorationDataAnalysis.md)
+
+# [练习材料](./Exercise)
+
+1. [异常检验](./Exercise/异常检验.ipynb)
+
+   练习检验常见异常，练习异常产生原因以及排除
 
 # [分享材料](./Share)
 
