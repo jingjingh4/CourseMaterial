@@ -32,4 +32,4 @@
 
    * [Python Basic 信息](./Share/Basic.md)
 
-     其中包括了部分的练习文件，[Basic 练习](./Share/Basic.ipynb)
+     其中包括了部分的练习文件，[Basic 练习](./Share/Basic.ipynb)，以及 [Basic_extend 练习](././Share/Basic_extend.ipynb)
