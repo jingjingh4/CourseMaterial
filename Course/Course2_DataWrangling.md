@@ -151,3 +151,6 @@ tar -zxvf name.tar.gz
 [^6]: [read_csv](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html) 
 [^7]: [python3-cookbook 3.0.0 文档](https://python3-cookbook.readthedocs.io/zh_CN/latest/c06/p01_read_write_csv_data.html) 
 [^8]: [Non-tidy data · Simply Statistics](https://simplystatistics.org/2016/02/17/non-tidy-data/) 
+[^9]: [Application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)   
+
+​	API 的维基百科，可以详细查看一下 API 的组成及其作用
