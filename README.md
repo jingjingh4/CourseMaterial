@@ -11,6 +11,7 @@
 1. [使用统计学验证应用中的假设](./Course/Course1_Perceptual_Phenomenon.md)
 2. [数据清洗](./Course/Course2_DataWrangling.md)
 3. [探索性数据分析](./Course/Course3_ExplorationDataAnalysis.md)
+4. [通过数据讲故事](./Course/Course4_DataStoryTelling.md)
 
 # [练习材料](./Exercise)
 
