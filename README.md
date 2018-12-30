@@ -19,6 +19,10 @@
 
    练习检验常见异常，练习异常产生原因以及排除
 
+2. [课程二练习](./Exercise/Course2_Exercise.ipynb)
+
+   主要理解 HTML，XML 结构，Json 文件数据读取；正则表达式的基本应用
+
 # [分享材料](./Share)
 
 1. [GitHub 配置](./Share/GitHub配置.md)
