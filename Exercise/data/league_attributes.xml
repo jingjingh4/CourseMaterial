@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<root>
+  <row Team_Name="Leicester City" Wins="23" Draws="12" Losses="3"></row>
+  <row Team_Name="Arsenal" Wins="20" Draws="11" Losses="7"></row>
+  <row Team_Name="Tottenham Hotspur" Wins="19" Draws="13" Losses="6"></row>
+  <row Team_Name="Manchester City" Wins="19" Draws="9" Losses="10"></row>
+  <row Team_Name="Manchester United" Wins="19" Draws="9" Losses="10"></row>
+  <row Team_Name="Southampton" Wins="18" Draws="9" Losses="11"></row>
+  <row Team_Name="West Ham United" Wins="16" Draws="14" Losses="8"></row>
+  <row Team_Name="Liverpool" Wins="16" Draws="12" Losses="10"></row>
+  <row Team_Name="Stoke City" Wins="14" Draws="9" Losses="15"></row>
+  <row Team_Name="Chelsea" Wins="12" Draws="14" Losses="12"></row>
+  <row Team_Name="Everton" Wins="11" Draws="14" Losses="13"></row>
+  <row Team_Name="Swansea City" Wins="12" Draws="11" Losses="15"></row>
+  <row Team_Name="Watford" Wins="12" Draws="9" Losses="17"></row>
+  <row Team_Name="West Bromwich Albion" Wins="10" Draws="13" Losses="15"></row>
+  <row Team_Name="Crystal Palace" Wins="11" Draws="9" Losses="18"></row>
+  <row Team_Name="AFC Bournemouth" Wins="11" Draws="9" Losses="18"></row>
+  <row Team_Name="Sunderland" Wins="9" Draws="12" Losses="17"></row>
+  <row Team_Name="Newcastle United" Wins="9" Draws="10" Losses="19"></row>
+  <row Team_Name="Norwich City" Wins="9" Draws="7" Losses="22"></row>
+  <row Team_Name="Aston Villa" Wins="3" Draws="8" Losses="27"></row>
+</root>
