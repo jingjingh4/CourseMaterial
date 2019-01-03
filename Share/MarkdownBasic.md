@@ -472,3 +472,6 @@ $$
 
 [^3]: [Markdown 数学公式](http://blog.lisp4fun.com/2017/11/01/formula)
 [^4]: [Display style in math mode - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Display_style_in_math_mode) 
+[^5]: [How To Write Mathematical Equations, Expressions, and Symbols with LaTeX: A cheatsheet.](https://www.authorea.com/users/77723/articles/110898-how-to-write-mathematical-equations-expressions-and-symbols-with-latex-a-cheatsheet)
+
+​	罗列了怎么书写数据表达式，并且有相关的分类
