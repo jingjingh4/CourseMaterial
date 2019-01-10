@@ -1,0 +1,20 @@
+{"Draws":12,"Losses":3,"Team Name":"Leicester City","Wins":23}
+{"Draws":11,"Losses":7,"Team Name":"Arsenal","Wins":20}
+{"Draws":13,"Losses":6,"Team Name":"Tottenham Hotspur","Wins":19}
+{"Draws":9,"Losses":10,"Team Name":"Manchester City","Wins":19}
+{"Draws":9,"Losses":10,"Team Name":"Manchester United","Wins":19}
+{"Draws":9,"Losses":11,"Team Name":"Southampton","Wins":18}
+{"Draws":14,"Losses":8,"Team Name":"West Ham United","Wins":16}
+{"Draws":12,"Losses":10,"Team Name":"Liverpool","Wins":16}
+{"Draws":9,"Losses":15,"Team Name":"Stoke City","Wins":14}
+{"Draws":14,"Losses":12,"Team Name":"Chelsea","Wins":12}
+{"Draws":14,"Losses":13,"Team Name":"Everton","Wins":11}
+{"Draws":11,"Losses":15,"Team Name":"Swansea City","Wins":12}
+{"Draws":9,"Losses":17,"Team Name":"Watford","Wins":12}
+{"Draws":13,"Losses":15,"Team Name":"West Bromwich Albion","Wins":10}
+{"Draws":9,"Losses":18,"Team Name":"Crystal Palace","Wins":11}
+{"Draws":9,"Losses":18,"Team Name":"AFC Bournemouth","Wins":11}
+{"Draws":12,"Losses":17,"Team Name":"Sunderland","Wins":9}
+{"Draws":10,"Losses":19,"Team Name":"Newcastle United","Wins":9}
+{"Draws":7,"Losses":22,"Team Name":"Norwich City","Wins":9}
+{"Draws":8,"Losses":27,"Team Name":"Aston Villa","Wins":3}
