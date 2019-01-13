@@ -42,3 +42,7 @@
    * [Python Basic 信息](./Share/Basic.md)
 
      其中包括了部分的练习文件，[Basic 练习](./Share/Basic.ipynb)，以及 [Basic_extend 练习](././Share/Basic_extend.ipynb)
+
+   * [字符乱码解决方案](./Share/字符编码检测.ipynb)
+
+     使用 `chardet` 来进行检测字符串编码
