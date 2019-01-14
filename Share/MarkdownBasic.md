@@ -145,7 +145,7 @@ markdown 的数学表达式的书写，是遵循了 `Latex` 的常用语法格�
 
 ## 2.1 单行与多行表达式
 
-数学表达式分为两类：**单行表达式** 和 **多行表达式**。此外多行表达式每行 `\\`结尾，每个元素 `&`分隔。下面演示单行表达式和多行表示：
+数学表达式分为两类：**单行表达式** 和 **多行表达式**。两者的差异主要在于使用了几个 `$` 标识符，此外多行表达式每行 `\\`结尾，每个元素 `&`分隔。下面演示单行表达式和多行表示：
 
 ```latex
 这个是单行的质能方程 $E=mc^2$，下面是一个多行的事件概率表示：
@@ -196,7 +196,272 @@ $f(x)=1/(1+e^{-(b_0+b_1*x)})$
 |  `$\mu$`   |  $\mu$   |          |
 | `$\sigma$` | $\sigma$ |          |
 
+## 2.4 详细其他参考内容
 
+### 2.4.1 希腊字符
+
+| 代码 | 效果 |
+| :--: | :--: |
+|   `$\alpha$`   |  $\alpha$    |
+|   `$\Alpha$`   |  $\Alpha$    |
+|`$\beta$`      |$\beta$      |
+|`$\Beta$`      |$\Beta$      |
+|`$\gamma$`      |$\gamma$      |
+|`$\Gamma$`      |$\Gamma$      |
+|`$\delta$`|$\delta$|
+|`$\Delta$`|$\Delta$|
+|`$\epsilon$`|$\epsilon$|
+|`$\Epsilon$`|$\Epsilon$|
+|`$\zeta$`|$\zeta$|
+|`$\Zeta$`|$\Zeta$|
+|`$\eta$`|$\eta$|
+|`$\Eta$`|$\Eta$|
+|`$\theta$`      |$\theta$      |
+|`$\Theta$`      |$\Theta$      |
+|`$\iota$`|$\iota$|
+|`$\Iota$`|$\Iota$|
+|`$\kappa$`|$\kappa$|
+|`$\Kappa$`|$\Kappa$|
+|`$\lambda$`|$\lambda$|
+|`$\Lambda$`|$\Lambda$|
+|`$\mu$`|$\mu$|
+|`$\Mu$`|$\Mu$|
+|`$\nu$`|$\nu$|
+|`$\Nu$`|$\Nu$|
+|`$\xi$`|$\xi$|
+|`$\Xi$`|$\Xi$|
+|`$\omicron$`|$\omicron$|
+|`$\Omicron$`|$\Omicron$|
+|`$\pi$`|$\pi$|
+|`$\Pi$`|$\Pi$|
+|`$\Rho$`|$\Rho$|
+|`$\Rho$`|$\Rho$|
+|`$\sigma$`|$\sigma$|
+|`$\Sigma$`|$\Sigma$|
+|`$\tau$`|$\tau$|
+|`$\Tau$`|$\Tau$|
+|`$\upsilon$`|$\upsilon$|
+|`$\Upsilon$`|$\Upsilon$|
+|`$\phi$`|$\phi$|
+|`$\Phi$`|$\Phi$|
+|`$\chi$`|$\chi$|
+|`$\Chi$`|$\Chi$|
+|`$\psi$`|$\psi$|
+|`$\Psi$`|$\Psi$|
+|`$\omega$`|$\omega$|
+|`$\Omega$`|$\Omega$|
+
+### 2.4.2 集合与比较
+
+| 代码 | 效果 | 意义 |
+| :--: | :--: | :--: |
+|`$\not\subset$`      |$\not\subset$      | 不包含于 |
+|`$\subset$`|$\subset$|子集，包含于|
+|`$\supset$`|$\supset$|超集|
+|`$\subseteq$`|$\subseteq$|真子集|
+|`$\subseteq$`|$\subseteq$||
+|`$\emptyset$`|$\emptyset$|空集|
+|`$\in$`|$\in$|属于|
+|`$\notin$`|$\notin$|不属于|
+|`$\bigcup$`|$\bigcup$|并集|
+|`$\bigcap$`|$\bigcap$|交集|
+|`$\mathbb{R}$`|$\mathbb{R}$|实数集|
+|`$\not$`|$\not$|非|
+|`$\bigvee$`|$\bigvee$|逻辑或|
+|`$\bigwedge$`|$\bigwedge$|逻辑与|
+|`$\nleq$`|$\nleq$|不小于等于|
+|`$\ngeq$`|$\ngeq$|不大于等于|
+|`$\approx$`|$\approx$|约等于|
+|`$\equiv$`|$\equiv$|恒等于|
+|`$\infty$`|$\infty$|无穷|
+|`$\sim$`|$\sim$|相关符号，例如正太分布 $X \sim N(\mu,\sigma^2)$|
+
+### 2.4.3 矩阵
+
+使用 `\begin{matrix}`开头及`\end{matrix}`结尾，每行 `\\`结尾，每个元素 `&`分隔。此外向量的表示是 `$\vec{}$`，例如 $\vec{a}$
+
+```latex
+$$
+\begin{matrix}
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+\end{matrix}
+$$
+
+$$
+\begin{pmatrix}
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+\end{pmatrix}
+$$
+
+$$
+\begin{bmatrix}
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+\end{bmatrix}
+$$
+
+$$
+\begin{Bmatrix}
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+\end{Bmatrix}
+$$
+
+$$
+\begin{vmatrix}
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+\end{vmatrix}
+$$
+
+$$
+\begin{Vmatrix}
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+\end{Vmatrix}
+$$
+```
+
+$$
+\begin{matrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{matrix}
+$$
+$$
+\begin{pmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{pmatrix}
+$$
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{bmatrix}
+$$
+$$
+\begin{Bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{Bmatrix}
+$$
+$$
+\begin{vmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{vmatrix}
+$$
+$$
+\begin{Vmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{Vmatrix}
+$$
+
+### 2.4.4  数学运算符号
+| 代码 | 效果 | 意义 |
+| :--: | :--: | :--: |
+|`$\times$`|$\times$|乘法|
+|`$\div$`|$\div$|除法|
+|`$\pm$`|$\pm$|正负号|
+|`$\mp$`|$\mp$|负正号|
+|`$\cdot$`|$\cdot$|点乘|
+|`$\ast$`|$\ast$|星乘|
+|`$\frac{}{}$`|$\frac{1}{2}$|分数表示法|
+|`$\log$`|$\log$|对数运算|
+|`$\ln$`|$\ln$|自然对数运算|
+|`$\sin$`|$\sin$|正弦函数|
+|`$\sum$`|$\sum$|累加|
+|`$\prod$`|$\prod$|累乘|
+|`$\coprod$`|$\coprod$|余积|
+|`$\int$`|$\int$|积分|
+|`$\iint$`|$\iint$|二次积分|
+|`$\oint$`|$\oint$|曲线积分|
+|`$\lim$`|$\lim$|极限|
+|`$\partial$`|$\partial$|导数|
+|`$\nabla$`|$\nabla$|梯度|
+|`$\sqrt$`|$\sqrt{ax+b}$|求平方根|
+|`$\bigotimes$`|$\bigotimes$|克罗内克积|
+|`$\bigoplus$`|$\bigoplus$|异或|
+|`$\bigodot$`|$\bigodot$|加运算|
+|`$\because$`|$\because$|因为|
+|`$\therefore$`|$\therefore$|所以|
+|`$\forall$`|$\forall$|任意|
+|`$\exists$`|$\exists$|存在|
+
+### 2.4.5 其他类型
+| 代码 | 效果 | 意义 |
+| :--: | :--: | :--: |
+|`$\ldots$`|$\ldots$|底部省略号|
+|`$\cdots$`|$\cdots$|中部省略号|
+|`$\hat$`|$\hat{y}$||
+|`$\check$`|$\check{y}$||
+|`$\breve$`|$\breve{y}$||
+|`$\circ$`|$90^\circ$|可以用于表示度数|
+|`$\overline$`|$\overline{a+b+c}$|用于表示平均值|
+|`$\underline$`|$\underline{a+b}$||
+|`$\uparrow$`|$\uparrow$||
+|`$\Uparrow$`|$\Uparrow$||
+|`$\backslash$`|$\backslash$||
+|`$\Updownarrow$`|$\Updownarrow$||
+|`$\Rightarrow$`|$\Rightarrow$||
+|`$\Longleftarrow$`|$\Longleftarrow$||
+|`$\overbrace$`|$\overbrace{a + b}$|上方括号，见下方示例|
+|`$\mid$`|$\mid$|竖线|
+|`$\lbrace \rbrace$`|$\lbrace \rbrace$|花括号|
+
+示例：
+
+* `$\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}$` 结果为 $\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}$
+
+* 上花括弧命令：\overbrace{公式}{说明}
+
+* 下花括弧命令：\underbrace{公式}_{说明}
+
+  例如：`$\underbrace{a+\overbrace{b+\dots+b}^{m\mbox{ 个}}}_{20\mbox{ 个}}$`显示为：$\underbrace{a+\overbrace{b+\dots+b}^{m\mbox{ 个}}}_{20\mbox{ 个}}$
+
+### 2.4.6 特殊格式
+
+1. 堆积符号
+
+   - `\stacrel{上位符号}{基位符号}` 基位符号大，上位符号小
+   - `{上位公式\atop 下位公式}` 上下符号一样大
+   - `{上位公式\choose 下位公式}` 上下符号一样大；上下符号被包括在圆弧内
+
+   示例 `$\vec{x}\stackrel{\mathrm{def}}{=}{x_1,\dots,x_n}\\ {n+1 \choose k}={n \choose k}+{n \choose k-1}\\ \sum_{k_0,k_1,\ldots>0 \atop k_0+k_1+\cdots=n}A_{k_0}A_{k_1}\cdots $` 结果为 $\vec{x}\stackrel{\mathrm{def}}{=}{x_1,\dots,x_n}\\ {n+1 \choose k}={n \choose k}+{n \choose k-1}\\ \sum_{k_0,k_1,\ldots>0 \atop k_0+k_1+\cdots=n}A_{k_0}A_{k_1}\cdots$
+
+2. 定界符
+
+   通过 `\big` , `\Big`, `\bigg`,  `\left`, `\right` 等进行控制， 例如 `$()\big(\big)\Big(\Big)\bigg(\bigg)\Bigg(\Bigg)$`，结果为$()\big(\big)\Big(\Big)\bigg(\bigg)\Bigg(\Bigg)$。此外示例
+
+   `$\left(x\right) \left(x^{y^{\scriptstyle z}}\right)$` 结果为 $\left(x\right) \left(x^{y^{\scriptstyle z}}\right)$
+
+3. 占位宽度
+
+   - `\qquad` 表示两个 quad 空格 `$a \qquad b $` 结果显示为：$a \qquad b $
+   - `\quad` 表示一个 quad 空格 `$a \quad b$` 结果显示为 $a \quad b$
+   - 一个空格 `$a\ b$` 表示 1/3m宽度，结果显示为：$a\ b$
+   - `;` 表示 `$a\;b$` 占 2/7m宽度，结果显示为：$a\;b$
+   - `,` 表示 1/6m宽度`$ a\,b$`, 显示为：$ a\,b$
+   - 没有占位控制，`$ab$`, 显示为：$ab$
+   - `!` 表示紧贴缩进1/6m宽度`$a\!b$`, 显示为：$a\!b$
+
+**Note:** 目前还有其他格式控制，例如 `\display`, `\textstyle`, `\scripstyle` 等[^4]
 
 # $\rm A$. 参考
 
@@ -205,4 +470,8 @@ $f(x)=1/(1+e^{-(b_0+b_1*x)})$
 
 ​	markdown 中文语法详细内容，对应了 [Daring Fireball: Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) 的内容
 
-[^ 3]: [Markdown 数学公式](http://blog.lisp4fun.com/2017/11/01/formula)
+[^3]: [Markdown 数学公式](http://blog.lisp4fun.com/2017/11/01/formula)
+[^4]: [Display style in math mode - Overleaf, Online LaTeX Editor](https://www.overleaf.com/learn/latex/Display_style_in_math_mode) 
+[^5]: [How To Write Mathematical Equations, Expressions, and Symbols with LaTeX: A cheatsheet.](https://www.authorea.com/users/77723/articles/110898-how-to-write-mathematical-equations-expressions-and-symbols-with-latex-a-cheatsheet)
+
+​	罗列了怎么书写数据表达式，并且有相关的分类
