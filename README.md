@@ -46,3 +46,11 @@
    * [字符乱码解决方案](./Share/字符编码检测.ipynb)
 
      使用 `chardet` 来进行检测字符串编码
+
+# [答疑](./Puzzle)
+
+1. 
+2. 
+3. [课程三 探索性数据分析](./Puzzle/Course3.md)
+4. [课程四 通过数据讲故事](./Puzzle/Course4.md)
+
